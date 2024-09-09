@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Educational Institution Landing Page">
+    <meta name="keywords" content="education, courses, university">
+    <title>Educational Institution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home">
+        <div class="banner">
+            <h1>Welcome to Our Institution</h1>
+            <p>Your journey to success starts here!</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide world-class education with an emphasis on practical skills and hands-on learning.</p>
+        </div>
+    </section>
+
+
+    <section id="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Course 1</h3>
+                    <p>Details about the course.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Course 2</h3>
+                    <p>Details about the course.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required> 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Educational Institution. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
